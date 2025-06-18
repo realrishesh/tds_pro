@@ -1,0 +1,17 @@
+# Ignore directories
+# Python environment
+venv/
+_pycache_/
+
+
+# API secrets
+.env
+
+
+
+# Playwright auth
+auth.json
+
+# OS files
+.DS_Store
+Thumbs.db
