@@ -21,7 +21,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger(__name__)
 API_KEY = os.getenv("API_KEY")
 
-DB_PATH = "knowledge_base.db"
+DB_PATH = "../knowledge_base.db"
 SIMILARITY_THRESHOLD = 0.50  # Lowered threshold for better recall
 MAX_RESULTS = 10  # Increased to get more context
 load_dotenv()
